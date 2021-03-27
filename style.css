@@ -1,0 +1,17 @@
+
+.container {
+    background-color: white;
+    margin: 10vh auto;
+    border: 2px solid black;
+    max-width: 60vh;
+    padding: 20px
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+#qrcode {
+    
+}

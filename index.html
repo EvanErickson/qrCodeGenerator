@@ -10,9 +10,27 @@
     <script src="qrcode.js"></script>
 </head>
 <body>
+
+    <div class="container">
+
+    <h1>QR Code Generator</h1>
+
+
+    <p>QR codes are huge in China. When I was there, people used QR codes for everything, from paying for food at a restaurant, to posting them on flyers for upcoming shows. I believe that QR codes will gain popularity in the United States so I wanted to create a way for the common person to get involved.
+        <br>
+        <br>
+        Using the latest Javascript available, along with Canvas, I successfully created an algorithm that will generate a QR code for any url. The hardest part of the project was dealing with all the variables and “drawing” the QR code. Luckily, my friend David Shim was there to help me.</p>
+        <label>Enter your url:</label>
+        <br>
     <input id="text" type="text" value="https://www.linkedin.com/in/evanserickson/" style="width:80%" /><br />
+
+
     <div id="qrcode" style="width:100px; height:100px; margin-top:15px; margin-left: 15px;"></div>
     
+
+    </div>
+    <!-- container -->
+
     <script type="text/javascript">
     var qrcode = new QRCode(document.getElementById("qrcode"), {
         width : 100,
