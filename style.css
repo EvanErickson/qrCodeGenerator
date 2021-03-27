@@ -8,10 +8,5 @@
 }
 
 body {
-    background-color: lightblue;
-}
-
-
-#qrcode {
-    
+    background-image: url("./cali.jpeg");
 }
